@@ -215,7 +215,7 @@ public class Step_Deff extends BaseClass {
 		click(p.getPatient().getDrop_File());
 		Thread.sleep(2000);
 		Robot rr = new Robot();
-		StringSelection str = new StringSelection("C:\\Users\\Dell\\Downloads\\TechAssessmentExp.txt");
+		StringSelection str = new StringSelection("OpenMRS\resource\FileUploadScript.exe");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(str, null);
 
 		rr.keyPress(KeyEvent.VK_CONTROL);
